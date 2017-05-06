@@ -14,7 +14,6 @@ The primary user audience will include any football fan who wish to quickly acce
 
 A secondary audience may be any friend, classmate, or co-worker of the web site author who wish to follow and keep track of NFL football team schedules for 2017 from any device on the Internet.
 
-Stephen Ford
-(srf146@g.harvard.edu) 
+*Stephen Ford (srf146@g.harvard.edu)*
 
 
