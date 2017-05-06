@@ -1,6 +1,6 @@
 # CSCI E12 Fundamentals of Website Development
 
-Strategy: A brief statement about the purpose and goals of the site.
+## Strategy: A brief statement about the purpose and goals of the site.
 
 Name of the site:  Stephen's 2017 NFL Pocket Schedule
 
