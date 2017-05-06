@@ -2,7 +2,7 @@
 
 ## Strategy: A brief statement about the purpose and goals of the site.
 
-Name of the site:  Stephen's 2017 NFL Pocket Schedule
+## Name of the site:  Stephen's 2017 NFL Pocket Schedule
 
 ### Articulate the purpose and goals of the site (e.g. 1 to 2 sentences):
 
