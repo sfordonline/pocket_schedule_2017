@@ -1,4 +1,4 @@
-CSCI E12 Fundamentals of Website Development
+# CSCI E12 Fundamentals of Website Development
 
 Strategy: A brief statement about the purpose and goals of the site.
 
