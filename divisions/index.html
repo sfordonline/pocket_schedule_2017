@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>tephen's 2017 NFL Pocket Refererence</title>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+    
+    <link rel="stylesheet" href="../css/main.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <style>
+        #Window {
+            background-color: white;
+            color: #fff;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+			height: 500px;
+            src: url("http://www.nfl.com/");
+        }
+		#loadMe {
+            background-color: white;
+            color: blue;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 60px;
+			height:30px;
+			cursor:pointer;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('#loadMeD').click(function (e) {
+			$('#Cowboys').show();
+			$("#Window").attr("src", "http://www.dallascowboys.com/");
+            });
+        });
+        $(document).ready(function () {
+            $('#loadMeN').click(function (e) {
+			$('#Giants').show();
+			$("#Window").attr("src", "http://www.giants.com/");
+            });
+        });
+        $(document).ready(function () {
+            $('#loadMeP').click(function (e) {
+			$('#Eagles').show();
+			$("#Window").attr("src", "http://www.philadelphiaeagles.com/");
+            });
+        });
+        $(document).ready(function () {
+            $('#loadRedskins').click(function (e) {
+			$('#Redskins').show();
+			$("#Window").attr("src", "http://www.redskins.com/");
+            });
+        });
+    </script>
+    
+</head>
+
+<body>
+    <div class="header"> 
+        <h1>Stephen's 2017 NFL Pocket Refererence</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            
+        </div>
+        <div class="row">
+            <div class="three columns">
+                <nav>
+                    <ul>
+                        <li id="iamhere"><a href="index.html">AFC East</a></li>
+                        <li><a href="afc-north.html">AFC North</a></li>
+                        <li><a href="afc-south.html">AFC South</a></li>
+                        <li><a href="afc-west.html">AFC West</a></li>
+                        <li><a href="nfc-east.html">NFC East</a></li>
+                        <li><a href="nfc-north.html">NFC North</a></li>
+                        <li><a href="nfc-south.html">NFC South</a></li>
+                        <li><a href="nfc-west.html">NFC West</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nine columns">
+                <main>
+                    
+
+                    
+                    <div>
+	                <iframe id="Window" src="http://www.nfl.com/news" ></iframe>
+                    
+                    </div>
+                    
+                    <div>
+                        <button id="loadMeD">Cowboys</button>
+                        <button id="loadMeN">Giants</button>
+                        <button id="loadMeP">Eagles</button>
+                        <button id="loadRedskins">Redskins</button>
+                    </div>
+                    
+                    
+                
+                </main>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="footer">
+                <p>Logos are the property of<a href="http://www.nfl.com/">NFL.com</a> | Schedules are provided by<a href="https://www.printyourbrackets.com/">Print Your Brackets.com</a> | <a href="../index.html">Home</a></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
