@@ -122,3 +122,78 @@ $(document).ready(function () {
 		$("#Window").attr("src", "http://www.raiders.com/");
     });
 });
+
+$(document).ready(function () {
+    $('#loadBears').click(function (e) {
+		$('#Bears').show();
+        $("#Window").attr("src", "http://www.chicagobears.com/");
+    });
+});
+$(document).ready(function () {
+    $('#loadLions').click(function (e) {
+		$('#Lions').show();
+		$("#Window").attr("src", "http://www.detroitlions.com/");
+    });
+});
+$(document).ready(function () {
+    $('#loadPackers').click(function (e) {
+		$('#Packers').show();
+		$("#Window").attr("src", "http://www.packers.com/");
+    });
+});
+$(document).ready(function () {
+    $('#loadVikings').click(function (e) {
+		$('#Vikings').show();
+		$("#Window").attr("src", "http://www.vikings.com/");
+    });
+});
+
+$(document).ready(function () {
+    $('#loadFalcons').click(function (e) {
+		$('#Falcons').show();
+        $("#Window").attr("src", "http://www.atlantafalcons.com/");
+    });
+});
+$(document).ready(function () {
+    $('#loadPanthers').click(function (e) {
+		$('#Panthers').show();
+		$("#Window").attr("src", "http://www.panthers.com/");
+    });
+});
+$(document).ready(function () {
+    $('#loadSaints').click(function (e) {
+		$('#Saints').show();
+		$("#Window").attr("src", "http://www.neworleanssaints.com/");
+    });
+});
+$(document).ready(function () {
+    $('#loadBucs').click(function (e) {
+		$('#Bucs').show();
+		$("#Window").attr("src", "http://www.buccaneers.com/");
+    });
+});
+
+$(document).ready(function () {
+    $('#loadCards').click(function (e) {
+		$('#Cards').show();
+        $("#Window").attr("src", "http://www.azcardinals.com/");
+    });
+});
+$(document).ready(function () {
+    $('#loadRams').click(function (e) {
+		$('#Rams').show();
+		$("#Window").attr("src", "http://www.therams.com/");
+    });
+});
+$(document).ready(function () {
+    $('#load49ers').click(function (e) {
+		$('#49ers').show();
+		$("#Window").attr("src", "http://www.49ers.com/");
+    });
+});
+$(document).ready(function () {
+    $('#loadSeahawks').click(function (e) {
+		$('#Seahawks').show();
+		$("#Window").attr("src", "http://www.seahawks.com/");
+    });
+});
