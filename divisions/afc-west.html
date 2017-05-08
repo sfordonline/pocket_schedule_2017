@@ -11,18 +11,19 @@
     
     <link rel="stylesheet" href="../css/main.css">
     
-    <!--
-    <link rel="stylesheet" href="css/constitution.css" />
-    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+    <script src="../js/division.js"></script>
     
 </head>
 
 <body>
+    <div class="header"> 
+        <h1>Stephen's 2017 NFL Pocket Refererence</h1>
+    </div>
     <div class="container">
         <div class="row">
-            <div class="header"> 
-                <h1>Stephen's 2017 NFL Pocket Refererence</h1>
-            </div>
+            
         </div>
         <div class="row">
             <div class="three columns">
@@ -36,20 +37,29 @@
                         <li><a href="nfc-north.html">NFC North</a></li>
                         <li><a href="nfc-south.html">NFC South</a></li>
                         <li><a href="nfc-west.html">NFC West</a></li>
-                        <li><a href="../index.html">Home</a></li>
+                        
                     </ul>
                 </nav>
             </div>
             <div class="nine columns">
                 <main>
-                    <h2>National Football Conference East</h2>
+                   <div class="buttons">
+                        <button id="loadBroncos">Broncos</button>
+                        <button id="loadChief">Chief</button>
+                        <button id="loadChargers">Chargers</button>
+                        <button id="loadRaiders">Raiders</button>
+                    </div>
+                    
+                    <div class="buttons">
+	                <iframe id="Window" src="http://www.denverbroncos.com/" ></iframe>
+                    </div>
                 </main>
             </div>
         </div>
 
         <div class="row">
             <div class="footer">
-                <p>Logos are the property of<a href="http://www.nfl.com/">NFL.com</a> | Schedules are provided by<a href="https://www.printyourbrackets.com/">Print Your Brackets.com</a></p>
+                Logos are the property of<a href="http://www.nfl.com/">NFL.com</a> | Schedules by<a href="https://www.printyourbrackets.com/">Print Your Brackets.com</a> | <a href="../index.html">Home</a>
             </div>
         </div>
 

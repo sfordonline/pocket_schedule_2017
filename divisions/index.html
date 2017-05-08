@@ -12,54 +12,8 @@
     <link rel="stylesheet" href="../css/main.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <style>
-        #Window {
-            background-color: white;
-            color: #fff;
-            padding: 5px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            width: 500px;
-			height: 300px;
-            src: url("http://www.nfl.com/");
-        }
-		#loadMe {
-            background-color: white;
-            color: blue;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            width: 60px;
-			height:30px;
-			cursor:pointer;
-        }
-    </style>
-    <script>
-        $(document).ready(function () {
-            $('#loadMeD').click(function (e) {
-			$('#Cowboys').show();
-			$("#Window").attr("src", "http://www.dallascowboys.com/");
-            });
-        });
-        $(document).ready(function () {
-            $('#loadMeN').click(function (e) {
-			$('#Giants').show();
-			$("#Window").attr("src", "http://www.giants.com/");
-            });
-        });
-        $(document).ready(function () {
-            $('#loadMeP').click(function (e) {
-			$('#Eagles').show();
-			$("#Window").attr("src", "http://www.philadelphiaeagles.com/");
-            });
-        });
-        $(document).ready(function () {
-            $('#loadRedskins').click(function (e) {
-			$('#Redskins').show();
-			$("#Window").attr("src", "http://www.redskins.com/");
-            });
-        });
-    </script>
+    
+    <script src="../js/division.js"></script>
     
 </head>
 
@@ -83,28 +37,22 @@
                         <li><a href="nfc-north.html">NFC North</a></li>
                         <li><a href="nfc-south.html">NFC South</a></li>
                         <li><a href="nfc-west.html">NFC West</a></li>
-                        <li><a href="../index.html">Home</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="nine columns">
                 <main>
                     
-
-                    
-                    <div>
-	                <iframe id="Window" src="http://www.nfl.com/news" ></iframe>
-                    
+                    <div class="buttons">
+                        <button id="loadBills">Bills</button>
+                        <button id="loadDolphins">Dolphins</button>
+                        <button id="loadPatriots">Patriots</button>
+                        <button id="loadJets">Jets</button>
                     </div>
                     
-                    <div>
-                        <button id="loadMeD">Cowboys</button>
-                        <button id="loadMeN">Giants</button>
-                        <button id="loadMeP">Eagles</button>
-                        <button id="loadRedskins">Redskins</button>
+                    <div class="buttons">
+	                <iframe id="Window" src="http://www.buffalobills.com/" ></iframe>
                     </div>
-                    
-                    
                 
                 </main>
             </div>
@@ -112,7 +60,7 @@
 
         <div class="row">
             <div class="footer">
-                <p>Logos are the property of<a href="http://www.nfl.com/">NFL.com</a> | Schedules are provided by<a href="https://www.printyourbrackets.com/">Print Your Brackets.com</a> | <a href="../index.html">Home</a></p>
+                Logos are the property of<a href="http://www.nfl.com/">NFL.com</a> | Schedules by<a href="https://www.printyourbrackets.com/">Print Your Brackets.com</a> | <a href="../index.html">Home</a>
             </div>
         </div>
 
